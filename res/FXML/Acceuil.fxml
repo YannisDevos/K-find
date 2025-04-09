@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="fr.univlille.classification.i3.page.Pages">
+   <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="250.0" prefWidth="450.0"
+          style="-fx-background-color: #6C3030;" text="K_Finds" textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font name="FreeMono Bold" size="30.0"/>
+      </font>
+      <VBox.margin>
+         <Insets bottom="30.0"/>
+      </VBox.margin>
+   </Label>
+   <Button mnemonicParsing="false" onAction="#nextPage" prefHeight="40.0" prefWidth="280.0"
+           style="-fx-border-color: black; -fx-border-radius: 100; -fx-background-radius: 100;"
+           text="Créer un nouveau graphe">
+      <font>
+         <Font name="FreeMono Bold" size="15.0"/>
+      </font>
+   </Button>
+   <Button layoutX="216.0" layoutY="314.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="280.0"
+           style="-fx-border-color: black; -fx-border-radius: 100; -fx-background-radius: 100;" text="Quitter">
+      <font>
+         <Font name="FreeMono Bold" size="15.0"/>
+      </font>
+      <VBox.margin>
+         <Insets top="15.0"/>
+      </VBox.margin>
+   </Button>
+</VBox>

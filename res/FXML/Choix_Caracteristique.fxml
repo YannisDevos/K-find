@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0"
+      prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <VBox alignment="CENTER" prefHeight="250.0" prefWidth="100.0" spacing="50.0">
+      <children>
+         <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false">
+            <graphic>
+               <ImageView fitHeight="43.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../../../Téléchargements/9144323-removebg-preview.png"/>
+                  </image>
+               </ImageView>
+            </graphic>
+            <VBox.margin>
+               <Insets right="850.0" top="20.0"/>
+            </VBox.margin>
+         </Button>
+         <Label text="Choississez un thème">
+            <font>
+               <Font name="FreeMono Bold" size="20.0"/>
+            </font>
+         </Label>
+         <ComboBox prefWidth="150.0" promptText="Thèmes"
+                   style="-fx-border-color: black; -fx-border-radius: 100; -fx-background-radius: 100;"/>
+         <Label text="Choississez les caractéristiques">
+            <font>
+               <Font name="FreeMono Bold" size="20.0"/>
+            </font>
+         </Label>
+      </children>
+   </VBox>
+   <HBox alignment="CENTER" prefHeight="250.0" prefWidth="0.0" spacing="250.0">
+      <children>
+         <ComboBox prefHeight="26.0" prefWidth="170.0" promptText="Caractéristique 1"
+                   style="-fx-background-radius: 100; -fx-border-radius: 100; -fx-border-color: black;"/>
+         <ComboBox prefHeight="26.0" prefWidth="170.0" promptText="Caractéristique 2"
+                   style="-fx-background-radius: 100; -fx-border-radius: 100; -fx-border-color: black;"/>
+      </children>
+   </HBox>
+</VBox>

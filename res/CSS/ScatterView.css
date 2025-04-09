@@ -1,0 +1,80 @@
+.button{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 0, 0, 3, 3);
+    -fx-background-color: #387e5e;
+    -fx-text-fill: white ;
+    -fx-border-color: black;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+    -fx-alignment: center;
+    -fx-spacing: 50px;
+}
+
+.retour{
+    -fx-text-alignment: center;
+    -fx-border-color: black;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+    -fx-padding: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 0, 0, 3, 3);
+    -fx-background-color: white;
+}
+
+.bPane{
+    -fx-background-image: url("../../../res/images/fond2.png");
+    -fx-background-size: 1010 550;
+}
+
+.box{
+
+}
+
+.combo-box .combo-box-popup .list-cell:hover {
+    -fx-text-fill: white ;
+    -fx-background-color: #142C2C ;
+}
+
+.combo-box-base {
+     -fx-text-alignment: center;
+     -fx-border-color: black;
+     -fx-border-radius: 7;
+     -fx-background-radius: 7;
+     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 0, 0, 3, 3);
+}
+
+.sc{
+    -fx-alignment: right;
+}
+
+.vbg{
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+    -fx-translate-y: 20;
+}
+
+.hboxButton{
+    -fx-spacing: 30px;
+}
+
+.axis-tick-mark {
+    -fx-stroke: #637040;
+    -fx-stroke-width: 3;
+}
+.axis-minor-tick-mark {
+    -fx-stroke: #859656;
+}
+
+.vbox{
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+}
+
+.vbaxe{
+    -fx-translate-y: 10;
+}
+
+.label{
+    -fx-background-color: rgba(255, 255, 255, 0.6);
+    -fx-background-radius: 10;
+    -fx-padding: 1 3 1 3;
+}
