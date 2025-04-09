@@ -15,6 +15,10 @@
 
 # 1. KFIND - Algorithme de classification par plus proches voisins-
 
+![Kfind1](./res/images/kfind1.png)
+![Kfind2](./res/images/kfind2.png)
+![Kfind3](./res/images/kfind3.png)
+
 ### 1.0.1. Fonctionnalités
 Toutes les fonctionnalités attendues pour le Jalon 1 ont été implémentées.
 Cependant, la partie visuelle de l'IHM et notamment les menus ne sont pas entièrement finalisés
